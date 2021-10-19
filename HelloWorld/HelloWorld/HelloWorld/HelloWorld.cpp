@@ -11,11 +11,11 @@ int main()
 
 	double distMile, distKm;
 
-	cout << "Въведете разстоянието в мили: ";
+	cout << ": ";
 	cin >> distMile;
 	distKm = distMile * kmInMile;
 
-	cout << "Разстояние (в км): " << distKm << endl;
+	cout << " " << distKm << endl;
 
 	system("pause>nul");
 		return 0;
