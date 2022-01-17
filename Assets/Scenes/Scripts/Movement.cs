@@ -8,12 +8,13 @@ public class Movement : MonoBehaviour
     private Rigidbody2D body;
     [SerializeField] private float moveSpeed;
     private BoxCollider2D box;
-    //[SerializeField]  private Animator animation;
+    [SerializeField]  private Animator animation;
  
     private void Awake()
     {
         body = transform.GetComponent<Rigidbody2D>();
         box = transform.GetComponent<BoxCollider2D>();
+        animation = GetComponent<Animator>();
        // animation = transform.GetComponent<Animator>();
     }
 
@@ -27,7 +28,7 @@ public class Movement : MonoBehaviour
             transform.localScale = new Vector3(0.5f, 0.5f, 0.5f);
         else if (horizontalInput < -0.01f)
             transform.localScale = new Vector3(-0.5f, 0.5f, 0.5f);
-       // animation.SetBool("run", horizontalInput != 0);
+        animation.SetBool("run", horizontalInput != 0);
 
     }
 
