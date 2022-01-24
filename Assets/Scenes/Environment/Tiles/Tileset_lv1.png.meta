@@ -111,6 +111,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -808,6 +809,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Tileset_lv1_0: 7694789193571003568
+      Tileset_lv1_26: -4391944258181034664
+      Tileset_lv1_7: 2614473147820557019
+      Tileset_lv1_12: -6613075612691105161
+      Tileset_lv1_28: -7911554177084611884
+      Tileset_lv1_14: 837020229429718161
+      Tileset_lv1_15: 808234409908654669
+      Tileset_lv1_24: -1542282829056781119
+      Tileset_lv1_18: -2628396518798088662
+      Tileset_lv1_21: -3749270170134618837
+      Tileset_lv1_22: 3336685502572104748
+      Tileset_lv1_16: 2620105404895650496
+      Tileset_lv1_27: -9010825816341002111
+      Tileset_lv1_1: 3401547066558471989
+      Tileset_lv1_4: 1842765366375645641
+      Tileset_lv1_23: 4314489935543592928
+      Tileset_lv1_19: 4099515776932658014
+      Tileset_lv1_13: -7067572338476322080
+      Tileset_lv1_11: -6536495411820590940
+      Tileset_lv1_10: 108254884325861604
+      Tileset_lv1_2: -7461116567645202815
+      Tileset_lv1_5: 8532985099896804263
+      Tileset_lv1_20: 7849308754814025855
+      Tileset_lv1_25: -3895779771678965470
+      Tileset_lv1_3: 1065263681176832915
+      Tileset_lv1_8: -9171753375702499177
+      Tileset_lv1_17: 6363055296503180469
+      Tileset_lv1_6: -1150074850682825970
+      Tileset_lv1_9: 7939891856794192932
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
